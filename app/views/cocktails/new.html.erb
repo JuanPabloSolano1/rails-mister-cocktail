@@ -1,3 +1,8 @@
+<div class="banner-content">
+    <div class="banner_text">
+    <h1>Le Wagon's cocktails</h1>
+    <p>Awesome beverages for developers nightlife</p>
+  </div>
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-8">
@@ -5,7 +10,9 @@
 
       <%= simple_form_for @cocktail do |f| %>
         <%= f.input :name %>
-        <%= f.button :submit, class: 'btn btn-primary' %>
+          <%= f.input :photo %>
+          <%= f.input :photo_cache, as: :hidden %>
+        <%= f.button :submit, class: "btn btn-warning mt-4" %>
       <% end %>
     </div>
   </div>

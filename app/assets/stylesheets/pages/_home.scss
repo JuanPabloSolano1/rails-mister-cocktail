@@ -1,1 +1,61 @@
 // Specific CSS for your home-page
+.banner-content{
+  background-image: url("https://res.cloudinary.com/a1986/image/upload/v1565950964/wu-yi-9ds9FNzUEwM-unsplash_baqtjt.jpg");
+  display: cover;
+  height: 400px;
+  background-position: center;
+  opacity: 0.9;
+  color: white;
+}
+.button_b{
+ text-align: center;
+ padding-top: 80px;
+ border-radius: 15%;
+}
+
+.banner_text h1 , p{
+ text-align: center;
+ padding-top: 50px;
+}
+
+.card{
+  margin-top: 30px;
+  height: 200px;
+  display: grid;
+  padding: 20px 30px;
+  border-shadow: 0 0 0 0;
+  text-align: center;
+  box-shadow: 10px 10px 8px;
+  color: white;
+  border-image-width: 30px;
+}
+
+.ingredient_b{
+ text-align: center;
+ padding-top: 20px;
+ color: white;
+}
+
+.container_show{
+  background-color: white;
+}
+
+body{
+background-color: #ecfcff;
+}
+.col-md-8{
+  text-align: center;
+  margin-top: 300px;
+  color: white;
+  box-shadow: 10px 15px 3px;
+  padding: 60px 60px;
+  background-color: #407088
+}
+
+.banner{
+  background-image: url("https://res.cloudinary.com/a1986/image/upload/v1565967650/kelly-sikkema-AgJdd_HgFPw-unsplash_xrbae5.jpg");
+  display: cover;
+  height: 400px;
+  opacity: 0.9;
+  color: white;
+}
